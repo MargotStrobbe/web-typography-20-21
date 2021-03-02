@@ -136,3 +136,26 @@ iframe {
 .sound1 iframe {
 	transform: rotate(1turn);
 }
+#closed-captions p {
+	opacity: 0;
+	transition: .05s;
+	position: absolute;
+}
+#closed-captions .on {
+	opacity: 1;
+}
+#closed-captions .off {
+	transition: .2s;
+	opacity: 0;
+}
+.voice2 {
+	font-style: normal;
+}
+.p1.on span :nth-of-type(1) {
+	opacity: 1;
+	transition: 0s;
+	font-family: "brenner sans";
+	font-style: normal;
+	font-weight: 800;
+}
+
