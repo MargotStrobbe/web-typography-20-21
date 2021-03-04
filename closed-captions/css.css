@@ -19,7 +19,6 @@ p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-	width: 104rem;
 	margin: 0 auto;
 }
 #closed-captions .on {
@@ -35,6 +34,7 @@ p {
 	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: 600;
+	width: 65rem;
 }
 
 /* Officer KD6-3.7 */
@@ -42,6 +42,8 @@ p {
 	font-family: "brenner sans";
 	font-style: normal;
 	font-weight: 400;
+	position: relative;
+	left: 80rem
 }
 
  /* Man in de gang */
@@ -49,6 +51,7 @@ p {
 	font-family: "brenner sans";
 	font-style: italic;
 	font-weight: 200;
+	width: 104rem;
 }
 
 /* **********************************************
