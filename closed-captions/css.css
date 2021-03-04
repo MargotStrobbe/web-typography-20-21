@@ -29,18 +29,22 @@ p {
 	transition: .2s;
 	opacity: 0;
 }
+
+/* Onzichtbare computer man  */
 .voice1 {
 	font-family: "brenner mono";
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 800;
 }
 
+/* Officer KD6-3.7 */
 .voice2 {
 	font-family: "brenner sans";
 	font-style: normal;
 	font-weight: 400;
 }
 
+ /* Man in de gang */
 .voice3 {
 	font-family: "brenner sans";
 	font-style: italic;
@@ -55,7 +59,7 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
-.p0 span {
+  /* .p0 span {
 	opacity: 0;
 	font-family: brenner;
 }
@@ -64,8 +68,8 @@ You probably want to change the styling.
 	transition: 0s;
 	font-family: "brenner sans";
 	font-style: normal;
-	font-weight: 800;
-}
+	font-weight: 800; */
+/* }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s;
@@ -141,4 +145,4 @@ You probably want to change the styling.
 	font-family: "brenner sans";
 	font-style: normal;
 	font-weight: 800;
-}
+}  */
