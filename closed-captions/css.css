@@ -30,7 +30,21 @@ p {
 	opacity: 0;
 }
 .voice1 {
+	font-family: "brenner mono";
+	font-style: normal;
+	font-weight: 400;
+}
+
+.voice2 {
+	font-family: "brenner sans";
+	font-style: normal;
+	font-weight: 400;
+}
+
+.voice3 {
+	font-family: "brenner sans";
 	font-style: italic;
+	font-weight: 200;
 }
 
 /* **********************************************
