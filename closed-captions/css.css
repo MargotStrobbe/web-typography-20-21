@@ -6,13 +6,21 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 
+body {
+	background-color: black;
+	text-align: center;
+}
 
-
+p {
+	color: white;
+}
 
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	width: 104rem;
+	margin: 0 auto;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -120,23 +128,3 @@ You probably want to change the styling.
 	font-style: normal;
 	font-weight: 800;
 }
-
-/* /* **********************************************
-Sounds.
-	You can style the whole body, or you can 
-	style anything within the body the moment
-	a sound starts.
-*********************************************  */
-
-/* The moment the class .sound1 is added to the body, the background is yellow */
-/* .sound1 {
-	background: yellow;
-}
-
-iframe {
-	transition: 1s;
-}
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 iframe {
-	transform: rotate(1turn);
-} */ */
