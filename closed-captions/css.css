@@ -2,7 +2,7 @@
 Basic mechanics
 Hide all paragraphs by default
 Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
+Hide them when they receive the class 'off' 
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 
@@ -34,7 +34,7 @@ p {
 	font-family: "brenner mono";
 	font-style: normal;
 	font-weight: 600;
-	width: 65rem;
+	padding-left: 20%;
 }
 
 /* Officer KD6-3.7 */
@@ -42,12 +42,21 @@ p {
 	font-family: "brenner sans";
 	font-style: normal;
 	font-weight: 400;
-	position: relative;
-	left: 80rem
+	padding-left: 60%;
+	text-align: right;
+	width: 20rem;
 }
 
  /* Man in de gang */
 .voice3 {
+	font-family: "brenner sans";
+	font-style: italic;
+	font-weight: 200;
+	width: 104rem;
+}
+
+/* Laatste stem */
+.voice4 {
 	font-family: "brenner sans";
 	font-style: italic;
 	font-weight: 200;
