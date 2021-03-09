@@ -63,6 +63,27 @@ p {
 	width: 104rem;
 }
 
+/* Sounds */
+
+.eenmalig-alarm-laag { 
+	opacity: 0;
+}
+
+.sound1 .eenmalig-alarm-laag {
+	opacity: 1;
+	color: red;
+	position: absolute;
+	width: 104rem;
+}
+
+.sound2 .eenmalig-alarm-hoog {
+	opacity: 1;
+	color: yellow;
+	position: absolute;
+	width: 104rem;
+}
+
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
