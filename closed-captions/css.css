@@ -90,6 +90,10 @@ p {
 	opacity: 1;
 }
 
+.sound1 {
+	background-color: dimgray;
+}
+
 .sound2 .eenmalig-alarm-laag {
 	opacity: 0;
 }
