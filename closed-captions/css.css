@@ -75,66 +75,117 @@ p {
 
 /* Sounds */
 
-.eenmalig-alarm-laag { 
-	opacity: 0;
-	position: absolute;
-	width: 104rem;
-	top: 65%;
-	font-family: "Brenner sans condensed";
-	font-style: normal;
-	font-weight: 600;
-	color: red;
+#sounds p {
+    opacity: 0;
+    margin: -10em auto 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: grey;
+    font-family: "Brenner Mono Italic";
+    z-index: 200;
+    font-size: 1.2em;
 }
 
-.sound1 .eenmalig-alarm-laag {
-	opacity: 1;
+@keyframes first {
+    0% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
-.sound1 {
-	background-color: dimgray;
+.sound0 #sounds .nummer1 {
+	animation: first 8s;
 }
 
-.sound2 .eenmalig-alarm-laag {
-	opacity: 0;
+.sound1 #sounds .nummer2 {
+	animation: first 1.5s;
 }
 
-.eenmalig-alarm-hoog {
-	opacity: 0;
-	position: absolute;
-	width: 104rem;
-	top: 65%;
-	font-family: "Brenner sans condensed";
-	font-style: normal;
-	font-weight: 600;
-	color: yellow;
+.sound2 #sounds .nummer3 {
+	animation: first 1.5s;
 }
 
-.sound3 .eenmalig-alarm-hoog {
-	opacity: 1;
+.sound3 #sounds .nummer4 {
+	animation: first 1.5s;
 }
 
-.sound4 .eenmalig-alarm-hoog {
-	opacity: 0;
+.sound4 #sounds .nummer5 {
+	animation: first 0.5s;
 }
 
-.doffe-toon {
-	opacity: 0;
-	background-color: dimgray;
-	position: absolute;
-	width: 104rem;
-	top: 65%;
-	font-family: "Brenner sans condensed";
-	font-style: normal;
-	font-weight: 600;
+.sound6 #sounds .nummer6 {
+	animation: first 1.5s;
 }
 
-.sound5 .doffe-toon {
-	opacity: 1;
+.sound7 #sounds .nummer7 {
+	animation: first 1.5s;
 }
 
-.sound6 .doffe-toon {
-	opacity: 0;
+.sound8 #sounds .nummer8 {
+	animation: first 1s;
 }
+
+.sound9 #sounds .nummer9 {
+	animation: first 1.5s;
+}
+
+.sound10 #sounds .nummer10 {
+	animation: first 43s;
+}
+
+
+@keyframes Highkillingbeep {
+	0% {
+		transform: scale(1.0, 1.0);
+	}
+	
+	100% {
+		transform: scale(1.5, 1.5);
+	}
+}
+.sound10 {
+	animation: Highkillingbeep ;
+	animation-duration: 43s;
+	animation-timing-function: ease-in-out;
+}
+
+
+/* @keyframes blinkingBackground {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+.sound10 {
+    background-color: black;
+
+    animation: blinkingBackground 1s 42;
+    animation-delay: 1s;
+} */
 
 
 /* **********************************************
