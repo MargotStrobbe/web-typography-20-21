@@ -12,5 +12,6 @@ sounds = [
 	31,//sound 8 nummer 8
 	32,//sound 9 nummer 9
 	34,//sound 10 nummer 10
-	86//sound 11 nummer 11
+	75,//sound 11
+	86//sound 12 
 ];

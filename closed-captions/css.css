@@ -29,7 +29,7 @@ p {
 	opacity: 0;
 }
 
-/* Video in midden van beeld */
+/* Video in midden van beeld
 #video-placeholder {
     position: absolute;
     top: 0;
@@ -37,7 +37,7 @@ p {
     left: 0;
     right: 0;
     margin: auto;
-}
+} */
 
 /* Onzichtbare computer man  */
 .voice1 {
@@ -45,10 +45,9 @@ p {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 1.4rem;
-	padding-left: 30%;
-	text-align: left;
-	width: 30rem;
-	top: 63%;
+	position: absolute;
+	text-align: center;
+	width: 100%
 }
 
 /* Officer KD6-3.7 */
@@ -57,10 +56,9 @@ p {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.2rem;
-	padding-left: 50%;
-	text-align: right;
-	width: 20rem;
-	top: 63%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
 }
 
  /* Man in de gang */
@@ -69,8 +67,9 @@ p {
 	font-style: italic;
 	font-weight: 200;
 	font-size: 1.2rem;
-	width: 104rem;
-	top: 63%;
+	position: absolute;
+	text-align: center;
+	width: 100%
 }
 
 /* Laatste stem */
@@ -79,30 +78,31 @@ p {
 	font-style: italic;
 	font-weight: 200;
 	font-size: 1.2rem;
-	width: 104rem;
-	top: 63%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
 }
 
 /* Within cells interliked 3x achter elkaar */
 #closed-captions p:nth-of-type(42) {
-    top: 63%;
+    top: 93%;
 }
 
 #closed-captions p:nth-of-type(43) {
-    top: 66%;
+    top: 96%;
 }
 
 #closed-captions p:nth-of-type(44) {
-    top: 69%;
+    top: 99%;
 }
 
 /* Sounds */
 #sounds p {
     opacity: 0;
-    margin: 35em auto 0;
     text-align: center;
     width: 100%;
     position: absolute;
+	top: 55%;
     color: lightsalmon;
     font-family: "Brenner sans";
     font-size: 1.2em;
@@ -113,7 +113,7 @@ p {
         opacity: 1
     }
 
-    80% {
+    90% {
         opacity: 1;
     }
 
@@ -140,6 +140,7 @@ p {
 
 .sound4 #sounds .nummer5 {
 	animation: first 0.5s;
+	box-shadow: 0 0 10px 10px orange;
 }
 
 .sound6 #sounds .nummer6 {
@@ -148,6 +149,7 @@ p {
 
 .sound7 #sounds .nummer7 {
 	animation: first 1.5s;
+	box-shadow: 0 0 10px 10px orange;
 }
 
 .sound8 #sounds .nummer8 {
@@ -156,12 +158,62 @@ p {
 
 .sound9 #sounds .nummer9 {
 	animation: first 1.5s;
+	box-shadow: 0 0 10px 10px orange;
 }
 
 .sound10 #sounds .nummer10 {
 	animation: first 43s;
 }
 
+.sound11 #sounds .nummer11 {
+	animation: first 10s;
+}
+
+.sound12 #sounds .nummer12 {
+	animation: first 40s;
+}
+
+@keyframes zoom {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.2, 1.2);
+	}
+	100% {
+		transform: scale(1.5, 1.5);
+	}
+}
+
+.sound10 {
+	animation: zoom;
+	animation-duration: 41s;
+}
+
+@keyframes alarmshake{
+	0% {
+		transform: translate(0);
+	}
+	20%,
+	40%,
+	60%,
+	80%{
+		transform: translate(.8em);
+	}
+	10%,
+	30%,
+	50%{
+		transform: translate(-.2em);
+	}
+	70%,
+	100%{
+		transform: translate(0);
+	}
+}
+
+.sound1 iframe {
+	animation: alarmshake.8s ease-in;
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
