@@ -29,6 +29,16 @@ p {
 	opacity: 0;
 }
 
+/* Video in midden van beeld */
+#video-placeholder {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 /* Onzichtbare computer man  */
 .voice1 {
 	font-family: "brenner mono";
@@ -73,17 +83,28 @@ p {
 	top: 63%;
 }
 
-/* Sounds */
+/* Within cells interliked 3x achter elkaar */
+#closed-captions p:nth-of-type(42) {
+    top: 63%;
+}
 
+#closed-captions p:nth-of-type(43) {
+    top: 66%;
+}
+
+#closed-captions p:nth-of-type(44) {
+    top: 69%;
+}
+
+/* Sounds */
 #sounds p {
     opacity: 0;
-    margin: -10em auto 0;
+    margin: 35em auto 0;
     text-align: center;
     width: 100%;
     position: absolute;
-    color: grey;
-    font-family: "Brenner Mono Italic";
-    z-index: 200;
+    color: lightsalmon;
+    font-family: "Brenner sans";
     font-size: 1.2em;
 }
 
@@ -140,52 +161,6 @@ p {
 .sound10 #sounds .nummer10 {
 	animation: first 43s;
 }
-
-
-@keyframes Highkillingbeep {
-	0% {
-		transform: scale(1.0, 1.0);
-	}
-	
-	100% {
-		transform: scale(1.5, 1.5);
-	}
-}
-.sound10 {
-	animation: Highkillingbeep ;
-	animation-duration: 43s;
-	animation-timing-function: ease-in-out;
-}
-
-
-/* @keyframes blinkingBackground {
-    0% {
-        background-color: yellow;
-    }
-
-    25% {
-        background-color: black;
-    }
-
-    50% {
-        background-color: yellow;
-    }
-
-    75% {
-        background-color: black;
-    }
-
-    100% {
-        background-color: yellow;
-    }
-}
-
-.sound10 {
-    background-color: black;
-
-    animation: blinkingBackground 1s 42;
-    animation-delay: 1s;
-} */
 
 
 /* **********************************************
