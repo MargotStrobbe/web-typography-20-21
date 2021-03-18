@@ -1,83 +1,36 @@
-# Web Typography, 2020/2021
+# Mijn ontwerpkeuzes
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+Darice heeft geen gehoor, daarom ia zij afhankelijk van ondertiteling. Helaas krijgt zij regelmatig gedeeltes van de film niet mee omdat geluiden oppervlakkig worden beschreven in de captions. Ik laat je graag zien hoe ik op het ontwerp ben gekomen en wat mijn visie is. 
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+## Typografie
 
-Dat kan visueel sterker. 
+Alle tekst die in de video gevisualiseerd zijn heb ik onderaan de video gecentreerd. Ik heb hiervoor gekozen omdat Darice aangaf dat zij te veel moeite vond dat de tekst afewisseld aan de linker en rechter kant staat. Ik vond dit heel belangrijk, omdat de ondertiteling belangrijk is om de film te volgen. Wanneer de ondertiteling niet klopt of niet prettig leesbaar is, zal Darice afhaken.
 
-En dat gaan jullie doen.
+Als eerste heb ik ervoor gekozen om mij te focussen op de typografie. In de scene zijn vier verschillende karakters die aan het woord komen. Iedere stem in de video heb ik gevisualiseerd met een andere typografie. Ik heb dit gedaan om ervoor te zorgen dat Darice kan onderscheiden aan de hand van het typografie wie er in de scene spreekt. Daarnaast hebben de verschillende stemmen een eigen karakter en een eigen stemgeluid. Door de verschillende typografieën uit de Brenner Familie te gebruiken heb ik de karakters van de personages gevisualiseerd.
 
-## Leerdoelen
+De eerste stem die je hoort in de video is van een ondervrager. Deze stem heb ik gevisualiseerd met het font Brenner Mono Medium in de size 1.4rem. Ik heb gekozen voor een monospace font waarbij iedere letter hetzelfde formaat heeft. Het monospace font is hoekig en heeft veel rechte lijnen, hierdoor heeft iedere letter een strakke en strenge uitstraling. Deze eigenschappen komen naar mijn mening overeen met de macht en het gewicht van de stem. De stem is emotieloos, monotoon en indringend. Ik heb de letters van de ondervrager groter en krachtiger gemaakt dan die van de onderdervraagde om het verschil in hiërarchie te onderstrepen.
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+De tweede stem is van de officier. De stem van de officier heb ik vormgegeven met het font Brenner Sans in de size 1.2rem. Het font is schreefloos en heeft veel rondingen. De uitstraling van het font is hierdoor een stuk vriendelijker in vergelijking met de monospace. De personage moet in de film zijn werk uitvoeren zonder veel vragen te stellen waardoor hij neutraal overkomt. De spreker heeft een vriendelijke en neutrale stem, dit komt overeen met de eigenschappen van het font.
 
-## Oplevering
+In de video passeert de officier een medewerker die gemene uitspraak doet. De passant heeft het font Brenner Mono Italic gekregen. De passant heeft autoritaire uitsraling, daarom heb ik ervoor gekozen om een monospace font te gebruiken. Ik heb de tekst cursief vormgegeven om duidelijk te maken dat de tekst door een ander personage wordt uitgesproken. Als laatste heb ik het uitroepteken vervangen voor een punt. Darice gaf aan dat de zin door dit leesteken een andere betekenis krijgt, de passant schreeuwt niet, maar hij fluisterd. 
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+De laatste stem in de video heeft weer een ander font gekregen. De stem klinkt vriendelijker dan de ondervrager en dit onderscheid wilde ik graag benadrukken met het font Brenner Sans Italic. Door het contrest tussen de twee onzichtbare sprekers kan Darice toch de verschillende stemgeluiden mee krijgen.
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+Als laatste heb ik gebruik gemaakt van het font Brenner Sans voor de captions. Ik wilde graag de captions duidelijk en statisch in het beeld laten verschijnen zodat dit aansluit bij de sfeer van de scene.
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+## Geluiden
 
-## Typografische restricties
+Alle geluiden in de video worden zowel gevisualiseerd als beschreven. Ik heb hiervoor gekozen omdat ik graag wilde voldoen aan de wensen van Darice, maar ook aan de wensen van Vasilis. De geluiden worden zowel gevisualiseerd aan de hand van het bewegende iframe als de kleur van de achtergrond. De kleuren en bewegingen veranderen aan de hand van de toonhoogte en de snelheid van het geluid. Ik heb hiervoor gekozen om aan Darice duidelijk te maken wat voor geluid wij horen.
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+Het eerste alarm heb ik aangegeven door het beeld te laten schudden. Dit heb ik gedaan om het geluid van het alarm krachtig over te laten komen. Vervolgens heb ik de hoge piep vormgegevn aan de hand van hoogte. De toon is hoog, dus het beeld gaat ook omhoog. Vervolgens horen wij de lage bas, het beeld gaat omlaag, om zo de hoogte van het geluid aan te geven. Kort daarna horen wij een schelle piep, dit alarm klinkt totaal anders dan de bas. Om dit te visualiseren heb ik gekozen voor een contrast. Het beeld wordt kort vergroot.
 
-### Optie 1: Systeemfont
+De vervelende langdurige piep in de video is voor de luisteraar erg storend en het wordt met de seconde irritanter. Ik wilde ervoor zorgen dat Darive dit gevoel ook mee krijt, daarom heb ik het beeld geleidelijk laten vergroten en de achtergrond geleidelijk feller vormgegeven. 
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
+In het laatste gedeelte van de video heb ik de golvende geluiden gevisualiseerd door middel van een skew. Hierdoor maakt het beeld de golvende geluiden. De achtergrond op precies hetzelfde moment mee met het beeld.
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
+## Kleurgebruik
 
-### Optie 2: Brenner
+De captions van de video zijn allemaal wit. Ik heb ervoor gekozen om de fonts geen verschillende kleuren te geven, omdat ik het overbodig vond. Darice gaf aan dat zij het voldoende vindt als de verschilldende personages een ander font toegewezen krijgen.
+De geluiden heb ik de kleur oranje-rood gegeven. Ik heb hiervoor gekozen omdat oranje onderandere de eigenschappen rauw en actief heeft en deze vind ik aansluiten bij de sfeer van de scene. De kleur heeft een rode tint om onzekerheid te voorkomen en de kracht van de geluiden te benadrukken. 
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+De achtergondkleur is rood. Ik heb gebruik gemaakt van twee tinten om de kracht en de hoogte van het geluid te visualiseren. Rood zorgt ervoor dat de sfeer van de video wordt overgebracht omdat rood de eigenschappen kracht, spanning en avontuurlijk kent.
