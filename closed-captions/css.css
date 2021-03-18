@@ -110,7 +110,7 @@ p {
 
 @keyframes first {
     0% {
-        opacity: 1
+        opacity: 1;
     }
 
     90% {
@@ -174,11 +174,35 @@ p {
 	0% {
 		transform: scale(1, 1);
 	}
+	10% {
+		transform: scale(1.05, 1,05);
+	}
+	20% {
+		transform: scale(1.1, 1,1);
+	}
+	30% {
+		transform: scale(1.15, 1,15);
+	}
+	40% {
+		transform: scale(1.2, 1,2);
+	}
 	50% {
-		transform: scale(1.2, 1.2);
+		transform: scale(1.25, 1,25);
+	}
+	60% {
+		transform: scale(1.3, 1,3);
+	}
+	70% {
+		transform: scale(1.35, 1,35);
+	}
+	80% {
+		transform: scale(1.4, 1,4);
+	}
+	90% {
+		transform: scale(1.45, 1,45);
 	}
 	100% {
-		transform: scale(1.5, 1.5);
+		transform: scale(1.6, 1.6);
 	}
 }
 
@@ -280,98 +304,106 @@ p {
 	animation-duration: 300ms;
 }
 
-/* **********************************************
-The first paragraph, with extended timing for 
-	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
-	corresponds with the time that the word is
-	spoken.
-You probably want to change the styling.
-********************************************** */
-  /* .p0 span {
-	opacity: 0;
-	font-family: brenner;
+@keyframes waves {
+	0% {
+		transform: skewY(0deg);	
+	}
+	10% {
+		transform: skewY(10deg);
+	}
+	20% {
+		transform: skewY(-10deg);
+	}
+	30% {
+		transform: skewY(10deg);
+	}
+	40% {
+		transform: skewY(-10deg);
+	}
+	50% {
+	  transform: skewY(10deg);
+	}
+	60% {
+		transform: skewY(-10deg);
+	}
+	70% {
+		transform: skewY(10deg);
+	}
+	80% {
+		transform: skewY(-10deg);
+	}
+	90% {
+		transform: skewY(10deg);
+	}
+	100% {
+	  transform: skewY(0deg);
+	}
+  }
+
+.sound12 iframe {
+	animation: waves;
+	animation-duration: 50s;
 }
-.p0.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800; */
-/* }
-.p0.on span:nth-of-type(2) {
-	opacity: 1;
-	transition: 0s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
+
+  
+@keyframes coloralarm {
+	0% {
+	  background: darkorange;
+	}
+	100% {
+	  background: black;
+	}
 }
-.p0.on span:nth-of-type(3) {
-	opacity: 1;
-	transition: 0s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
+
+.sound1 {
+	  background: black;
+	  animation: coloralarm 1.5s;
 }
-.p0.on span:nth-of-type(4) {
-	opacity: 1;
-	transition: 0s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
+
+@keyframes colorbeep {
+	0% {
+		background: black;
+	}
+	50% {
+		background: orange;
+	}
+	100% {
+		background: black;
+	}
 }
-.p0.on span:nth-of-type(5) {
-	opacity: 1;
-	transition: 0s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
+
+.sound2 {
+	animation: colorbeep;
+	animation-duration: 1.5s;
 }
-.p0.on span:nth-of-type(6) {
-	opacity: 1;
-	transition: 0s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
+
+@keyframes colorbass {
+	0% {
+		background: black;
+	}
+	100% {
+		background:#c76706;
+	}
 }
-.p0.on span:nth-of-type(7) {
-	opacity: 1;
-	transition: 0s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
+
+.sound3 {
+	animation: colorbass;
+	animation-duration: 1.5s;
 }
-.p0.on span:nth-of-type(8) {
-	opacity: 1;
-	transition: 0s;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
+
+@keyframes colorhighbeep {
+	0% {
+		background: #c76706;
+	}
+	50% {
+		background: orange;
+	}
+	100% {
+		background: black;
+	}
 }
-.p0.on span:nth-of-type(9) {
-	opacity: 1;
-	transition: 0s;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
+
+.sound4 {
+	animation: colorhighbeep;
+	animation-duration: 0.5s;
 }
-.p0.on span:nth-of-type(10) {
-	opacity: 1;
-	transition: 0s;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
-}
-.p0.on span:nth-of-type(11) {
-	opacity: 1;
-	transition: 0s;
-	font-family: "brenner sans";
-	font-style: normal;
-	font-weight: 800;
-}  */
