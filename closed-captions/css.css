@@ -170,47 +170,6 @@ p {
 	animation: first 40s;
 }
 
-@keyframes zoom {
-	0% {
-		transform: scale(1, 1);
-	}
-	10% {
-		transform: scale(1.05, 1,05);
-	}
-	20% {
-		transform: scale(1.1, 1,1);
-	}
-	30% {
-		transform: scale(1.15, 1,15);
-	}
-	40% {
-		transform: scale(1.2, 1,2);
-	}
-	50% {
-		transform: scale(1.25, 1,25);
-	}
-	60% {
-		transform: scale(1.3, 1,3);
-	}
-	70% {
-		transform: scale(1.35, 1,35);
-	}
-	80% {
-		transform: scale(1.4, 1,4);
-	}
-	90% {
-		transform: scale(1.45, 1,45);
-	}
-	100% {
-		transform: scale(1.6, 1.6);
-	}
-}
-
-.sound10 {
-	animation: zoom;
-	animation-duration: 41s;
-}
-
 @keyframes alarmshake{
 	0% {
 		transform: translate(0);
@@ -303,6 +262,134 @@ p {
 	animation: beephighafterlow;
 	animation-duration: 300ms;
 }
+  
+@keyframes coloralarm {
+	0% {
+	  background: #a71824;
+	}
+	100% {
+	  background: black;
+	}
+}
+
+.sound1 {
+	  background: black;
+	  animation: coloralarm 1.5s;
+}
+
+@keyframes colorbeep {
+	0% {
+		background: black;
+	}
+	50% {
+		background: #a71824;
+	}
+	100% {
+		background: black;
+	}
+}
+
+@keyframes colorbass {
+	0% {
+		background: black;
+	}
+	100% {
+		background: #530c12;
+	}
+}
+
+@keyframes colorhighbeep {
+	0% {
+		background: #530c12;
+	}
+	50% {
+		background: #a71824;
+	}
+	100% {
+		background: black;
+	}
+}
+
+.sound2 {
+	animation: colorbeep;
+	animation-duration: 1.5s;
+}
+
+.sound3 {
+	animation: colorbass;
+	animation-duration: 1.5s;
+}
+
+.sound4 {
+	animation: colorhighbeep;
+	animation-duration: 0.5s;
+}
+
+.sound6 {
+	animation: colorbass;
+	animation-duration: 1.5s;
+}
+
+.sound7 {
+	animation: colorhighbeep;
+	animation-duration: 0.5s;
+}
+
+.sound8 {
+	animation: colorbass;
+	animation-duration: 1.5s;
+}
+
+.sound9 {
+	animation: colorhighbeep;
+	animation-duration: 0.5s;
+}
+
+@keyframes zoom {
+	0% {
+		transform: scale(1, 1);
+		background: black;
+	}
+	10% {
+		transform: scale(1.01, 1.01);
+	}
+	20% {
+		transform: scale(1.03, 1.03);
+	}
+	25% {
+		transfor: scale(1.06, 1.06)
+	}
+	30% {
+		transform: scale(1.15, 1,15);
+	}
+	40% {
+		transform: scale(1.2, 1,2);
+	}
+	50% {
+		transform: scale(1.25, 1,25);
+	}
+	60% {
+		transform: scale(1.3, 1,3);
+	}
+	70% {
+		transform: scale(1.35, 1,35);
+	}
+	80% {
+		transform: scale(1.4, 1,4);
+	}
+	90% {
+		transform: scale(1.45, 1,45);
+	}
+	100% {
+		transform: scale(1.5, 1.5);
+		background: #a71824;
+	}
+}
+
+.sound10 {
+	animation: zoom;
+	animation-duration: 41s;
+}
 
 @keyframes waves {
 	0% {
@@ -345,65 +432,57 @@ p {
 	animation-duration: 50s;
 }
 
-  
-@keyframes coloralarm {
-	0% {
-	  background: darkorange;
-	}
-	100% {
-	  background: black;
-	}
-}
-
-.sound1 {
-	  background: black;
-	  animation: coloralarm 1.5s;
-}
-
-@keyframes colorbeep {
+@keyframes wavecolor {
 	0% {
 		background: black;
+	}
+	10% {
+		background: #a71824;
+	}
+	20% {
+		background: #530c12;
+	}
+	30% {
+		background: #a71824;
+	}
+	40% {
+		background: #530c12;
 	}
 	50% {
-		background: orange;
+		background: #a71824;
+	}
+	60% {
+		background: #530c12;
+	}
+	70% {
+		background: #a71824;
+	}
+	80% {
+		background: #530c12;
+	}
+	90% {
+		background: #a71824;
 	}
 	100% {
 		background: black;
 	}
 }
 
-.sound2 {
-	animation: colorbeep;
-	animation-duration: 1.5s;
+.sound13 {
+	animation: wavecolor;
+	animation-duration: 49s;
 }
 
-@keyframes colorbass {
+/* @keyframes annoyingbeep {
 	0% {
 		background: black;
 	}
 	100% {
-		background:#c76706;
+		background: #a71824;
 	}
 }
 
-.sound3 {
-	animation: colorbass;
-	animation-duration: 1.5s;
-}
-
-@keyframes colorhighbeep {
-	0% {
-		background: #c76706;
-	}
-	50% {
-		background: orange;
-	}
-	100% {
-		background: black;
-	}
-}
-
-.sound4 {
-	animation: colorhighbeep;
-	animation-duration: 0.5s;
-}
+.sound10 {
+	animation: annoyingbeep;
+	animation-duration: 41s;
+} */
