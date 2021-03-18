@@ -101,7 +101,7 @@ p {
     opacity: 0;
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
 	top: 55%;
     color: lightsalmon;
     font-family: "Brenner sans";
@@ -140,7 +140,6 @@ p {
 
 .sound4 #sounds .nummer5 {
 	animation: first 0.5s;
-	box-shadow: 0 0 10px 10px orange;
 }
 
 .sound6 #sounds .nummer6 {
@@ -149,7 +148,6 @@ p {
 
 .sound7 #sounds .nummer7 {
 	animation: first 1.5s;
-	box-shadow: 0 0 10px 10px orange;
 }
 
 .sound8 #sounds .nummer8 {
@@ -158,7 +156,6 @@ p {
 
 .sound9 #sounds .nummer9 {
 	animation: first 1.5s;
-	box-shadow: 0 0 10px 10px orange;
 }
 
 .sound10 #sounds .nummer10 {
@@ -211,8 +208,76 @@ p {
 	}
 }
 
+@keyframes beephigh{
+	0% {
+		transform: translate(0, 0);
+	}
+	50%{
+		transform: translate(0, -5em);
+	}
+	100%{
+		transform: translate(0);
+	}
+}
+
+@keyframes beeplow{
+	0% {
+		transform: translate(0, 0);
+	}
+	50%{
+		transform: translate(0, 5em);
+	}
+	100%{
+		transform: translate(0);
+	}
+}
+
+@keyframes beephighafterlow{
+	0% {
+		transform: scale(1, 1);
+	}
+	100%{
+		transform: scale(1.1, 1.1);
+	}
+}
+
 .sound1 iframe {
 	animation: alarmshake.8s ease-in;
+}
+
+.sound2 iframe  {
+	animation: beephigh;
+	animation-duration: 1s;
+}
+
+.sound3 iframe {
+	animation: beeplow;
+	animation-duration: 2s;
+}
+
+.sound4 iframe {
+	animation: beephighafterlow;
+	animation-duration: 300ms;
+}
+
+.sound6 iframe {
+	animation: beeplow;
+	animation-duration: 2s;
+}
+
+.sound7 iframe {
+	animation: beephighafterlow;
+	animation-duration: 300ms;
+}
+
+.sound8 iframe {
+	animation: beeplow;
+	animation-duration: 2s;
+}
+
+.sound9 iframe {
+	animation: beephighafterlow;
+	animation-duration: 300ms;
 }
 
 /* **********************************************
