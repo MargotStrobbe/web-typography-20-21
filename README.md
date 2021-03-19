@@ -24,7 +24,7 @@ Alle geluiden in de video worden zowel gevisualiseerd als beschreven. Ik heb hie
 
 Het eerste alarm heb ik aangegeven door het beeld te laten schudden. Dit heb ik gedaan om het geluid van het alarm krachtig over te laten komen. Vervolgens heb ik de hoge piep vormgegeven aan de hand van hoogte. De toon is hoog, dus het beeld gaat ook omhoog. Vervolgens horen wij de lage bas, het beeld gaat omlaag, om zo de hoogte van het geluid aan te geven. Kort daarna horen wij een schelle piep, dit alarm klinkt totaal anders dan de bas. Om dit te visualiseren heb ik gekozen voor een contrast. Het beeld wordt kort vergroot.
 
-De vervelende langdurige piep in de video is voor de luisteraar erg storend en het wordt met de seconde irritanter. Ik wilde ervoor zorgen dat Darive dit gevoel ook mee krijt, daarom heb ik het beeld geleidelijk laten vergroten en de achtergrond geleidelijk feller vormgegeven. 
+De vervelende langdurige piep in de video is voor de luisteraar erg storend en het wordt met de seconde irritanter. Ik wilde ervoor zorgen dat Darive dit gevoel ook mee krijgt, daarom heb ik het beeld geleidelijk laten vergroten en de achtergrond geleidelijk feller vormgegeven. 
 
 In het laatste gedeelte van de video heb ik de golvende geluiden gevisualiseerd door middel van een skew. Hierdoor maakt het beeld de golvende geluiden. De achtergrond op precies hetzelfde moment mee met het beeld.
 
