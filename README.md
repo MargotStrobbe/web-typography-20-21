@@ -4,7 +4,7 @@ Darice heeft geen gehoor, daarom is zij afhankelijk van ondertiteling. Helaas kr
 
 ## Typografie
 
-Alle tekst die in de video gevisualiseerd zijn heb ik onderaan de video gecentreerd. Ik heb hiervoor gekozen omdat Darice aangaf dat zij te veel moeite vond dat de tekst afewisseld aan de linker en rechter kant staat. Ik vond dit heel belangrijk, omdat de ondertiteling belangrijk is om de film te volgen. Wanneer de ondertiteling niet klopt of niet prettig leesbaar is, zal Darice afhaken.
+Alle tekst die in de video gevisualiseerd zijn heb ik onderaan de video gecentreerd. Ik heb hiervoor gekozen omdat Darice aangaf dat zij te veel moeite vond dat de tekst afwisselend aan de linker en rechter kant staat. Ik vond dit heel belangrijk, omdat de ondertiteling belangrijk is om de film te volgen. Wanneer de ondertiteling niet klopt of niet prettig leesbaar is, zal Darice afhaken.
 
 Als eerste heb ik ervoor gekozen om mij te focussen op de typografie. In de scene zijn vier verschillende karakters die aan het woord komen. Iedere stem in de video heb ik gevisualiseerd met een andere typografie. Ik heb dit gedaan om ervoor te zorgen dat Darice kan onderscheiden aan de hand van het typografie wie er in de scene spreekt. Daarnaast hebben de verschillende stemmen een eigen karakter en een eigen stemgeluid. Door de verschillende typografieën uit de Brenner Familie te gebruiken heb ik de karakters van de personages gevisualiseerd.
 
