@@ -14,7 +14,7 @@ De tweede stem is van de officier. De stem van de officier heb ik vormgegeven me
 
 In de video passeert de officier een medewerker die gemene uitspraak doet. De passant heeft het font Brenner Mono Italic gekregen. De passant heeft autoritaire uitsraling, daarom heb ik ervoor gekozen om een monospace font te gebruiken. Ik heb de tekst cursief vormgegeven om duidelijk te maken dat de tekst door een ander personage wordt uitgesproken. Als laatste heb ik het uitroepteken vervangen voor een punt. Darice gaf aan dat de zin door dit leesteken een andere betekenis krijgt, de passant schreeuwt niet, maar hij fluisterd. 
 
-De laatste stem in de video heeft weer een ander font gekregen. De stem klinkt vriendelijker dan de ondervrager en dit onderscheid wilde ik graag benadrukken met het font Brenner Sans Italic. Door het contrest tussen de twee onzichtbare sprekers kan Darice toch de verschillende stemgeluiden mee krijgen.
+De laatste stem in de video heeft weer een ander font gekregen. De stem klinkt vriendelijker dan de ondervrager en dit onderscheid wilde ik graag benadrukken met het font Brenner Sans Italic. Door het contrast tussen de twee onzichtbare sprekers kan Darice toch de verschillende stemgeluiden mee krijgen.
 
 Als laatste heb ik gebruik gemaakt van het font Brenner Sans voor de captions. Ik wilde graag de captions duidelijk en statisch in het beeld laten verschijnen zodat dit aansluit bij de sfeer van de scene.
 
