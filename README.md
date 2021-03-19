@@ -1,6 +1,6 @@
 # Mijn ontwerpkeuzes
 
-Darice heeft geen gehoor, daarom ia zij afhankelijk van ondertiteling. Helaas krijgt zij regelmatig gedeeltes van de film niet mee omdat geluiden oppervlakkig worden beschreven in de captions. Ik laat je graag zien hoe ik op het ontwerp ben gekomen en wat mijn visie is. 
+Darice heeft geen gehoor, daarom is zij afhankelijk van ondertiteling. Helaas krijgt zij regelmatig gedeeltes van de film niet mee omdat geluiden oppervlakkig worden beschreven in de captions. Ik laat je graag zien hoe ik op het ontwerp ben gekomen en wat mijn visie is. 
 
 ## Typografie
 
