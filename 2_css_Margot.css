@@ -1,0 +1,466 @@
+body {
+	background-color: black;
+	text-align: center;
+}
+
+p {
+	color: white;
+}
+
+#closed-captions p {
+	opacity: 0;
+	transition: .05s;
+	position: absolute;
+	margin: 0 auto;
+}
+#closed-captions .on {
+	opacity: 1;
+}
+#closed-captions .off {
+	transition: .2s;
+	opacity: 0;
+}
+
+/* Video in midden van beeld
+#video-placeholder {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+} */
+
+/* Onzichtbare computer man  */
+.voice1 {
+	font-family: "brenner mono";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.4rem;
+	position: absolute;
+	text-align: center;
+	width: 100%
+}
+
+/* Officer KD6-3.7 */
+.voice2 {
+	font-family: "brenner sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2rem;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+ /* Man in de gang */
+.voice3 {
+	font-family: "brenner mono";
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2rem;
+	position: absolute;
+	text-align: center;
+	width: 100%
+}
+
+/* Laatste stem */
+.voice4 {
+	font-family: "brenner sans";
+	font-style: italic;
+	font-weight: 200;
+	font-size: 1.2rem;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+/* Within cells interliked 3x achter elkaar */
+#closed-captions p:nth-of-type(42) {
+    top: 93%;
+}
+
+#closed-captions p:nth-of-type(43) {
+    top: 96%;
+}
+
+#closed-captions p:nth-of-type(44) {
+    top: 99%;
+}
+
+/* Sounds */
+#sounds p {
+    opacity: 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+	top: 55%;
+    color: orangered;
+    font-family: "Brenner sans";
+    font-size: 1.2em;
+}
+
+@keyframes first {
+    0% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.sound0 #sounds .nummer1 {
+	animation: first 8s;
+}
+
+.sound1 #sounds .nummer2 {
+	animation: first 1.5s;
+}
+
+.sound2 #sounds .nummer3 {
+	animation: first 1.5s;
+}
+
+.sound3 #sounds .nummer4 {
+	animation: first 1.5s;
+}
+
+.sound4 #sounds .nummer5 {
+	animation: first 0.5s;
+}
+
+.sound6 #sounds .nummer6 {
+	animation: first 1.5s;
+}
+
+.sound7 #sounds .nummer7 {
+	animation: first 1.5s;
+}
+
+.sound8 #sounds .nummer8 {
+	animation: first 1s;
+}
+
+.sound9 #sounds .nummer9 {
+	animation: first 1.5s;
+}
+
+.sound10 #sounds .nummer10 {
+	animation: first 43s;
+}
+
+.sound11 #sounds .nummer11 {
+	animation: first 10s;
+}
+
+.sound12 #sounds .nummer12 {
+	animation: first 40s;
+}
+
+@keyframes alarmshake{
+	0% {
+		transform: translate(0);
+	}
+	20%,
+	40%,
+	60%,
+	80%{
+		transform: translate(.8em);
+	}
+	10%,
+	30%,
+	50%{
+		transform: translate(-.2em);
+	}
+	70%,
+	100%{
+		transform: translate(0);
+	}
+}
+
+@keyframes beephigh{
+	0% {
+		transform: translate(0, 0);
+	}
+	50%{
+		transform: translate(0, -5em);
+	}
+	100%{
+		transform: translate(0);
+	}
+}
+
+@keyframes beeplow{
+	0% {
+		transform: translate(0, 0);
+	}
+	50%{
+		transform: translate(0, 5em);
+	}
+	100%{
+		transform: translate(0);
+	}
+}
+
+@keyframes beephighafterlow{
+	0% {
+		transform: scale(1, 1);
+	}
+	100%{
+		transform: scale(1.1, 1.1);
+	}
+}
+
+.sound1 iframe {
+	animation: alarmshake.8s ease-in;
+}
+
+.sound2 iframe  {
+	animation: beephigh;
+	animation-duration: 1s;
+}
+
+.sound3 iframe {
+	animation: beeplow;
+	animation-duration: 2s;
+}
+
+.sound4 iframe {
+	animation: beephighafterlow;
+	animation-duration: 300ms;
+}
+
+.sound6 iframe {
+	animation: beeplow;
+	animation-duration: 2s;
+}
+
+.sound7 iframe {
+	animation: beephighafterlow;
+	animation-duration: 300ms;
+}
+
+.sound8 iframe {
+	animation: beeplow;
+	animation-duration: 2s;
+}
+
+.sound9 iframe {
+	animation: beephighafterlow;
+	animation-duration: 300ms;
+}
+  
+@keyframes coloralarm {
+	0% {
+	  background: #a71824;
+	}
+	100% {
+	  background: black;
+	}
+}
+
+.sound1 {
+	  background: black;
+	  animation: coloralarm 1.5s;
+}
+
+@keyframes colorbeep {
+	0% {
+		background: black;
+	}
+	50% {
+		background: #a71824;
+	}
+	100% {
+		background: black;
+	}
+}
+
+@keyframes colorbass {
+	0% {
+		background: black;
+	}
+	100% {
+		background: #530c12;
+	}
+}
+
+@keyframes colorhighbeep {
+	0% {
+		background: #530c12;
+	}
+	50% {
+		background: #a71824;
+	}
+	100% {
+		background: black;
+	}
+}
+
+.sound2 {
+	animation: colorbeep;
+	animation-duration: 1.5s;
+}
+
+.sound3 {
+	animation: colorbass;
+	animation-duration: 1.5s;
+}
+
+.sound4 {
+	animation: colorhighbeep;
+	animation-duration: 0.5s;
+}
+
+.sound6 {
+	animation: colorbass;
+	animation-duration: 1.5s;
+}
+
+.sound7 {
+	animation: colorhighbeep;
+	animation-duration: 0.5s;
+}
+
+.sound8 {
+	animation: colorbass;
+	animation-duration: 1.5s;
+}
+
+.sound9 {
+	animation: colorhighbeep;
+	animation-duration: 0.5s;
+}
+
+@keyframes zoom {
+	0% {
+		transform: scale(1, 1);
+		background: black;
+	}
+	10% {
+		transform: scale(1.01, 1.01);
+	}
+	20% {
+		transform: scale(1.03, 1.03);
+	}
+	25% {
+		transform: scale(1.06, 1.06);
+	}
+	30% {
+		transform: scale(1.15, 1,15);
+	}
+	40% {
+		transform: scale(1.2, 1,2);
+	}
+	50% {
+		transform: scale(1.25, 1,25);
+	}
+	60% {
+		transform: scale(1.3, 1,3);
+	}
+	70% {
+		transform: scale(1.35, 1,35);
+	}
+	80% {
+		transform: scale(1.4, 1,4);
+	}
+	90% {
+		transform: scale(1.45, 1,45);
+	}
+	100% {
+		transform: scale(1.5, 1.5);
+		background: #a71824;
+	}
+}
+
+.sound10 {
+	animation: zoom;
+	animation-duration: 41s;
+}
+
+@keyframes waves {
+	0% {
+		transform: skewY(0deg);	
+	}
+	10% {
+		transform: skewY(10deg);
+	}
+	20% {
+		transform: skewY(-10deg);
+	}
+	30% {
+		transform: skewY(10deg);
+	}
+	40% {
+		transform: skewY(-10deg);
+	}
+	50% {
+	  transform: skewY(10deg);
+	}
+	60% {
+		transform: skewY(-10deg);
+	}
+	70% {
+		transform: skewY(10deg);
+	}
+	80% {
+		transform: skewY(-10deg);
+	}
+	90% {
+		transform: skewY(10deg);
+	}
+	100% {
+	  transform: skewY(0deg);
+	}
+  }
+
+.sound12 iframe {
+	animation: waves;
+	animation-duration: 50s;
+}
+
+@keyframes wavecolor {
+	0% {
+		background: black;
+	}
+	10% {
+		background: #a71824;
+	}
+	20% {
+		background: #530c12;
+	}
+	30% {
+		background: #a71824;
+	}
+	40% {
+		background: #530c12;
+	}
+	50% {
+		background: #a71824;
+	}
+	60% {
+		background: #530c12;
+	}
+	70% {
+		background: #a71824;
+	}
+	80% {
+		background: #530c12;
+	}
+	90% {
+		background: #a71824;
+	}
+	100% {
+		background: black;
+	}
+}
+
+.sound13 {
+	animation: wavecolor;
+	animation-duration: 49s;
+}
